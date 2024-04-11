@@ -1,9 +1,9 @@
-package com.example.todo.controller;
+package observability.canary.api.controller;
 
 import java.util.List;
 
-import com.example.todo.dto.TodoEntity;
-import com.example.todo.service.TodoService;
+import observability.canary.api.dto.TodoEntity;
+import observability.canary.api.service.TodoService;
 import org.springframework.web.bind.annotation.*;
 
 

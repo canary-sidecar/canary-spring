@@ -1,4 +1,4 @@
-package com.example.todo.dto;
+package observability.canary.api.dto;
 
 import lombok.AccessLevel;
 import lombok.Getter;

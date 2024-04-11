@@ -1,11 +1,11 @@
-package com.example.todo.service;
+package observability.canary.api.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.example.todo.dto.TodoEntity;
-import com.example.todo.repository.TodoMapper;
+import observability.canary.api.dto.TodoEntity;
+import observability.canary.api.repository.TodoMapper;
 
 
 @Service

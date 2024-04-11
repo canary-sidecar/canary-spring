@@ -1,6 +1,6 @@
-package com.example.todo.controller;
+package observability.canary.api.controller;
 
-import com.example.todo.dto.TodoEntity;
+import observability.canary.api.dto.TodoEntity;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;

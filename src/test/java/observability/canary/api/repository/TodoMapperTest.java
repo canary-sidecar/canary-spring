@@ -1,13 +1,12 @@
-package com.example.todo.repository;
+package observability.canary.api.repository;
 
-import com.example.todo.dto.TodoEntity;
+import observability.canary.api.dto.TodoEntity;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mybatis.spring.boot.test.autoconfigure.MybatisTest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 

@@ -1,9 +1,9 @@
-package com.example.todo.repository;
+package observability.canary.api.repository;
 
 import java.util.List;
 
+import observability.canary.api.dto.TodoEntity;
 import org.apache.ibatis.annotations.Mapper;
-import com.example.todo.dto.TodoEntity;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
